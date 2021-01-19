@@ -4,7 +4,7 @@ body nav ul li{
     padding: 5px;
 }
 section{
-    margin-top: 100px;
+    margin-top: 40px;
     text-align: center;
     font-size: 300%;
 }
@@ -15,8 +15,8 @@ body nav ul li a{
     text-decoration: none;
 }
 section img{
-    height: 500px;
-    width: 600px;
+    height: 450px;
+    width: 550px;
     margin-top: -40px;
 }
 body{
