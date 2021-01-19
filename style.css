@@ -4,21 +4,41 @@ body nav ul li{
     padding: 5px;
 }
 section{
-    margin-top: 40px;
+    margin-top: 50px;
     text-align: center;
-    font-size: 300%;
+    font-size: 200%;
 }
 nav{
     margin-left: 200px;
 }
 body nav ul li a{
     text-decoration: none;
+    color: tomato;
 }
 section img{
-    height: 450px;
-    width: 550px;
+    height: 400px;
+    width: 500px;
     margin-top: -40px;
 }
 body{
     background-color: rgb(245, 244, 244);
+}
+strong{
+color: tomato;
+}
+button{
+    background-color: rgb(243, 86, 13);
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 6px;
+    border-radius: 4px;
+    position: relative;
+    animation: moving 5s infinite;
+    animation-timing-function: ease;
+}
+@keyframes moving {
+    from {left: -150px;}
+    to {left: 150px;}
 }
